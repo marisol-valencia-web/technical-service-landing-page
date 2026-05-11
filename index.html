@@ -1,1 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technical Service Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav id="main-nav" aria-label="Main navigation">
+    <div class="nav-logo">
+      <span aria-hidden="true"></span>
+      MVC
+    </div>
+    <a href="#cta" class="nav-cta">Get a page built →</a>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" aria-labelledby="hero-h1">
+    <p class="hero-label" aria-label="Service category">HTML/CSS Landing Pages · AI & SaaS</p>
+    <h1 id="hero-h1">
+      Turn complex products into <em>clear </em>landing pages<br/>
+    </h1>
+    <p class="hero-sub">
+Clear HTML/CSS landing pages for SaaS and AI teams — responsive and implementation-ready.</p>
+    <div class="hero-actions">
+      <a href="#how" class="btn-primary">See how it works</a>
+      <a href="#features" class="btn-ghost">
+        What's included
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+    <div class="hero-stats" role="list" aria-label="Key stats">
+      <div class="stat" role="listitem">
+        <div class="stat-n">5<span>–</span>7</div>
+        <div class="stat-l">business days per page</div>
+      </div>
+      <div class="stat" role="listitem">
+        <div class="stat-n">100<span>%</span></div>
+        <div class="stat-l">vanilla HTML/CSS</div>
+      </div>
+      <div class="stat" role="listitem">
+        <div class="stat-n">0</div>
+        <div class="stat-l">engineers diverted from core work</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap" aria-hidden="true">
+    <div class="ticker-track">
+      <!-- duplicated for seamless loop -->
+      <span class="ticker-item">Product Pages</span>
+      <span class="ticker-item">Pricing Pages</span>
+      <span class="ticker-item">Feature Launches</span>
+      <span class="ticker-item">Use Case Pages</span>
+      <span class="ticker-item">Demo Request Pages</span>
+      <span class="ticker-item">Waitlist Pages</span>
+      <span class="ticker-item">Integration Pages</span>
+      <span class="ticker-item">Case Study Pages</span>
+      <span class="ticker-item">Product Pages</span>
+      <span class="ticker-item">Pricing Pages</span>
+      <span class="ticker-item">Feature Launches</span>
+      <span class="ticker-item">Use Case Pages</span>
+      <span class="ticker-item">Demo Request Pages</span>
+      <span class="ticker-item">Waitlist Pages</span>
+      <span class="ticker-item">Integration Pages</span>
+      <span class="ticker-item">Case Study Pages</span>
+    </div>
+  </div>
+
+  <!-- PROBLEM -->
+  <section id="problem" aria-labelledby="problem-h2">
+    <div class="problem-grid">
+      <div class="reveal">
+        <p class="section-label">The problem</p>
+        <h2 id="problem-h2">Smart product. Unclear page.</h2>
+        <p class="problem-text">
+          You've built something powerful. But visitors leave in 8 seconds because the page reads like internal documentation. A great product page isn't a feature list — it's a conversation that guides a skeptical buyer to action.
+        </p>
+      </div>
+      <div class="problem-cards reveal" style="transition-delay:0.15s">
+        <div class="problem-card">
+          <span class="p-icon" aria-hidden="true">⚙️</span>
+          <div>
+            <div class="p-title">Engineers shouldn't be building landing pages</div>
+            <div class="p-desc">At $120/hr, your senior dev spending two days on a landing page is a $960 opportunity cost — minimum.</div>
+          </div>
+        </div>
+        <div class="problem-card">
+          <span class="p-icon" aria-hidden="true">🌀</span>
+          <div>
+            <div class="p-title">Design systems get ignored in a rush</div>
+            <div class="p-desc">Quick launches produce inconsistent pages that erode brand trust over time. Perceived quality is perceived product quality.</div>
+          </div>
+        </div>
+        <div class="problem-card">
+          <span class="p-icon" aria-hidden="true">📉</span>
+          <div>
+            <div class="p-title">Technical copy doesn't convert</div>
+            <div class="p-desc">Buyers don't read specs. They scan for answers to one question: "does this solve my specific problem?"</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" aria-labelledby="features-h2">
+    <div class="features-inner">
+      <div class="features-header reveal">
+        <p class="section-label">What you get</p>
+        <h2 id="features-h2">Built to convert.</h2>
+      </div>
+      <div class="features-grid" role="list">
+        <div class="feat-card reveal" role="listitem">
+          <div class="feat-num">01</div>
+          <div class="feat-title">Conversion-first structure</div>
+          <div class="feat-desc">Every block earns its place. Hero, problem, solution, proof, CTA — sequenced to match how technical buyers actually evaluate a product.</div>
+          <span class="feat-tag">UX copy + layout</span>
+        </div>
+        <div class="feat-card reveal" role="listitem" style="transition-delay:0.1s">
+          <div class="feat-num">02</div>
+          <div class="feat-title">Clean, handoff-ready code</div>
+          <div class="feat-desc">Semantic HTML5, CSS custom properties, no unnecessary libraries. Your team can read it, extend it, and maintain it without asking me what anything means.</div>
+          <span class="feat-tag">Pure HTML / CSS / JS</span>
+        </div>
+        <div class="feat-card reveal" role="listitem" style="transition-delay:0.2s">
+          <div class="feat-num">03</div>
+          <div class="feat-title">Design system alignment</div>
+          <div class="feat-desc">I work from your tokens, your palette, your component patterns. The page looks like it belongs to your product — because it does.</div>
+          <span class="feat-tag">Brand consistency</span>
+        </div>
+        <div class="feat-card reveal" role="listitem" style="transition-delay:0.3s">
+          <div class="feat-num">04</div>
+          <div class="feat-title">Copy that explains the complex</div>
+          <div class="feat-desc">AI inference pipelines and vector databases need translation. I turn technical specs into benefit-driven copy that resonates with CTOs and operators alike.</div>
+          <span class="feat-tag">Technical storytelling</span>
+        </div>
+        <div class="feat-card reveal" role="listitem" style="transition-delay:0.4s">
+          <div class="feat-num">05</div>
+          <div class="feat-title">Fast turnaround</div>
+          <div class="feat-desc">SaaS teams ship fast. Your web presence should keep up. Single pages delivered in 5–7 business days from approved brief to final file.</div>
+          <span class="feat-tag">5–7 day delivery</span>
+        </div>
+        <div class="feat-card reveal" role="listitem" style="transition-delay:0.5s">
+          <div class="feat-num">06</div>
+          <div class="feat-title">Responsive by default</div>
+          <div class="feat-desc">Every page is tested across viewports. No media query afterthoughts. Mobile layout is part of the design, not a fix after the fact.</div>
+          <span class="feat-tag">Mobile-first</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how" aria-labelledby="how-h2">
+    <div class="how-header reveal">
+      <p class="section-label">Process</p>
+      <h2 id="how-h2">Three steps. One page. No status meetings.</h2>
+    </div>
+    <div class="how-steps">
+      <div class="step reveal">
+        <div class="step-num" aria-hidden="true">01</div>
+        <div class="step-title">Brief</div>
+        <div class="step-desc">You tell me what the product does, who it's for, and what action you want visitors to take. I ask the questions your page should be answering.</div>
+      </div>
+      <div class="step reveal" style="transition-delay:0.15s">
+        <div class="step-num" aria-hidden="true">02</div>
+        <div class="step-title">Build</div>
+        <div class="step-desc">I produce the layout, copy, and code in one round. You review a working HTML file — not a Figma mockup that still needs to be built.</div>
+      </div>
+      <div class="step reveal" style="transition-delay:0.3s">
+        <div class="step-num" aria-hidden="true">03</div>
+        <div class="step-title">Ship</div>
+        <div class="step-desc">One revision round, then you receive the final file. Clean, documented, ready to deploy to whatever stack you're running.</div>
+      </div>
+    </div>
+  </section>
+<!-- QUOTE -->
+  <section id="quote">
+    <div class="quote-block reveal">
+      <blockquote>
+            “Marketing is the art of creating genuine customer value.”
+      </blockquote>
+      <div class="quote-attr">
+        <div class="quote-name">  Inspired by Philip Kotler · Clear pages that communicate value and guide action</div>
+      
+      </div>
+    </div>
+  </section>
+  
+  <!-- DELIVERABLES / CODE CARD -->
+  <section id="deliverables" aria-labelledby="deliv-h2">
+    <div class="deliv-inner">
+      <div class="reveal">
+        <p class="section-label">Deliverables</p>
+        <h2 id="deliv-h2">What you’ll receive</h2>
+        <div class="deliv-list" role="list">
+          <div class="deliv-item" role="listitem">Production-ready HTML file, single-page or multi-section</div>
+          <div class="deliv-item" role="listitem">All CSS with custom properties documented</div>
+          <div class="deliv-item" role="listitem">Responsive layout tested at 375px, 768px, 1280px+</div>
+          <div class="deliv-item" role="listitem">Semantic markup with basic accessibility attributes</div>
+          <div class="deliv-item" role="listitem">Inline comments for easy developer handoff</div>
+          <div class="deliv-item" role="listitem">One revision round included</div>
+        </div>
+      </div>
+      <div class="code-card reveal" style="transition-delay:0.2s" aria-label="Code preview example">
+        <div class="code-bar">
+          <span class="dot dot-r"></span>
+          <span class="dot dot-y"></span>
+          <span class="dot dot-g"></span>
+          <span class="code-file">pricing-page.html</span>
+        </div>
+        <pre class="code-body"><span class="cm">/* ── TOKENS ──────────────────────── */</span>
+<span class="kw">:root</span> {
+  <span class="cl">--color-bg</span>:      <span class="val">#0D1117</span>;
+  <span class="cl">--color-accent</span>:  <span class="val">#3B82F6</span>;
+  <span class="cl">--color-text</span>:    <span class="val">#F0F6FF</span>;
+  <span class="cl">--font-display</span>:  <span class="st">'Syne'</span>, sans-serif;
+  <span class="cl">--font-body</span>:     <span class="st">'IBM Plex Sans'</span>, sans-serif;
+  <span class="cl">--radius</span>:        <span class="val">6px</span>;
+}
+
+<span class="cm">/* ── PRICING CARD ─────────────────── */</span>
+<span class="kw">.plan-card</span> {
+  <span class="cl">background</span>:    <span class="val">var(--color-bg)</span>;
+  <span class="cl">border</span>:        <span class="val">1px solid rgba(255,255,255,0.08)</span>;
+  <span class="cl">border-radius</span>: <span class="val">var(--radius)</span>;
+  <span class="cl">padding</span>:       <span class="val">40px 32px</span>;
+  <span class="cl">transition</span>:    <span class="val">border-color 0.3s</span>;
+}
+<span class="kw">.plan-card.featured</span> {
+  <span class="cl">border-color</span>: <span class="val">var(--color-accent)</span>;
+}</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section id="cta" aria-labelledby="cta-h2">
+    <div class="cta-inner">
+      <p class="section-label" style="text-align:center; margin-bottom: 16px;">Ready when you are</p>
+      <h2 id="cta-h2">Let’s build a clear page for your product.</h2>
+      <p class="cta-sub">Share your brief. I’ll help define what the page needs before we build.</p>
+      <div class="cta-actions">
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=mvc437@gmail.com&su=Landing%20Page%20Brief" 
+   class="btn-primary" 
+   target="_blank" 
+   rel="noopener noreferrer">
+  Send your brief →
+</a>
+        <a href="#how" class="btn-outline">How it works</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">
+      <span aria-hidden="true"></span>
+     Marisol Valencia Cardona
+    </div>
+    <div class="footer-copy">HTML/CSS Landing Pages · AI &amp; SaaS · Remote</div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
